@@ -84,6 +84,7 @@
 
 .time{
     font-family: 'Orbitron', sans-serif;
+    color: blueviolet;
 }
 
 @media (max-width: 500px) {

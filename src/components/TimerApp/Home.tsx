@@ -75,10 +75,10 @@ export default function TimerApp() {
                 {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
               </h1>
               <button
-                className="mt-4 px-4 py-2 bg-red-500 rounded-lg"
+                className={s.options}
                 onClick={() => setTimeLeft(null)}
               >
-                Reset
+                Cancelar
               </button>
             </div>
           )}
