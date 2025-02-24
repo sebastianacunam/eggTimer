@@ -91,7 +91,11 @@
         min-width: 60px;
     }
 
-    /* .homeContainer{
-        padding: 5.2rem 3rem;
-    } */
+    .homeContainer{
+        padding: 6.5rem 3rem;
+    }
+
+    .homeContainer2{
+        padding: 6rem 4.2rem;
+    }
 }
