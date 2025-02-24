@@ -25,3 +25,8 @@
 }
 
 
+@media (max-width: 500px) {
+    .startButtonContainer{
+        padding: 6rem 4rem;
+    }
+}

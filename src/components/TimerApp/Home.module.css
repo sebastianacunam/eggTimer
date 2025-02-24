@@ -84,5 +84,14 @@
 
 .time{
     font-family: 'Orbitron', sans-serif;
+}
 
+@media (max-width: 500px) {
+    .mainContainer{
+        min-width: 60px;
+    }
+
+    /* .homeContainer{
+        padding: 5.2rem 3rem;
+    } */
 }

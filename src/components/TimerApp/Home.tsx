@@ -48,7 +48,7 @@ export default function TimerApp() {
       {!started ? (
         <StartButton onClick={() => setStarted(true)} /> // Usamos el botón aquí
       ) : (
-        <div className={s.appContainer}>
+        <div>
 
           {timeLeft === null ? (
             <div className={s.homeContainer}>
